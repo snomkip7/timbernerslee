@@ -1,14 +1,55 @@
-body{
+body {
     text-align: center;
 }
 
-.top{
+.top {
     background: linear-gradient(#34eb89 0%, #4ceb34 100%);
 }
-img{
+
+img {
     width: 20%;
     border-radius: 50%;
 }
-.bottom{
+
+.bottom {
     background: linear-gradient(#ffe28c 0%, #acfce2 100%);
+}
+
+h1 {
+    font-family: 'Macondo Swash Caps', cursive;
+}
+
+h2 {
+    font-family: 'Macondo Swash Caps', cursive;
+}
+
+h3 {
+    font-family: 'Nova Flat', cursive;
+}
+
+p {
+    font-family: 'Comfortaa', cursive;
+}
+
+.links {
+    float: left;
+    font-family: 'Rubik', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.links:hover {
+    background-color: aqua;
+    color: darkorange;
+}
+
+.menu {
+    position: absolute;
+    z-index: 15;
+    top: 20px;
+    right: 20px;
+    font-family: 'Rubik', sans-serif;
+    list-style: none;
 }
