@@ -1,0 +1,14 @@
+body{
+    text-align: center;
+}
+
+.top{
+    background: linear-gradient(#34eb89 0%, #4ceb34 100%);
+}
+img{
+    width: 20%;
+    border-radius: 50%;
+}
+.bottom{
+    background: linear-gradient(#ffe28c 0%, #acfce2 100%);
+}
