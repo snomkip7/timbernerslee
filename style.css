@@ -1,17 +1,18 @@
 body {
     text-align: center;
+    margin: 0px;
 }
 
-.top {
+#top {
     background: linear-gradient(#34eb89 0%, #4ceb34 100%);
 }
 
-img {
+.timimg {
     width: 20%;
     border-radius: 50%;
 }
 
-.bottom {
+#bottom {
     background: linear-gradient(#ffe28c 0%, #acfce2 100%);
 }
 
@@ -46,10 +47,20 @@ p {
 }
 
 .menu {
-    position: absolute;
-    z-index: 15;
-    top: 20px;
-    right: 20px;
+    position: fixed;
+    z-index: 10;
     font-family: 'Rubik', sans-serif;
     list-style: none;
+    background-color: coral;
+    width: 100%;
+    text-align: center;
+}
+
+.imgs {
+    height: 300px;
+    width: 500px;
+    margin: 10px;
+}
+input{
+    background:gray;
 }
